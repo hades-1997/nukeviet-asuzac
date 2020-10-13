@@ -1,0 +1,15 @@
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: #e7e7e7;
+    padding-top: 25px;
+  }
+  .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: rgb(100, 0, 0);
+    background-color: #3c3c3c00;
+  }
+  .navbar-default .navbar-nav>li>a {
+    color:black;
+    
+  }
+  .navbar-default{
+    font-family: 'Roboto', sans-serif;
+  }

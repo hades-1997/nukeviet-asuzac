@@ -1,0 +1,12 @@
+[Tue, 13 Oct 2020 08:22:13 +0700] [localhost] [::1] [Notice(8): Undefined variable: block_theme] [FILE: /modules/asuzacinfo/blocks/global.infoazuac.php] [LINE: 32]
+[Tue, 13 Oct 2020 08:22:13 +0700] [localhost] [::1] [Notice(8): Undefined variable: nv_Request] [FILE: /modules/asuzacinfo/blocks/global.infoazuac.php] [LINE: 34]
+[Tue, 13 Oct 2020 08:22:13 +0700] [localhost] [::1] [Error(1): Uncaught Error: Call to a member function isset_request() on null in C:\xampp\htdocs\landingpage\modules\asuzacinfo\blocks\global.infoazuac.php:34
+Stack trace:
+#0 C:\xampp\htdocs\landingpage\includes\core\user_functions.php(184): include()
+#1 C:\xampp\htdocs\landingpage\themes\asuzac_landingpage\theme.php(340): nv_blocks_content('<!DOCTYPE html>...')
+#2 C:\xampp\htdocs\landingpage\modules\news\funcs\main.php(339): nv_site_theme('<div class="new...')
+#3 C:\xampp\htdocs\landingpage\index.php(343): require('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown] [FILE: /modules/asuzacinfo/blocks/global.infoazuac.php] [LINE: 34]
+[Tue, 13 Oct 2020 08:38:29 +0700] [localhost] [::1] [Warning(2): file_get_contents(C:/xampp/htdocs/landingpage/themes//admin_default/modules/asuzacinfo\form.tpl): failed to open stream: No such file or directory] [FILE: /includes/xtemplate.class.php] [LINE: 1395]
+[Tue, 13 Oct 2020 10:29:33 +0700] [localhost] [::1] [User Warning(512): Đại chỉ emai không đúng:  (From): webmaster@localhost] [FILE: /includes/functions.php] [LINE: 1509]
